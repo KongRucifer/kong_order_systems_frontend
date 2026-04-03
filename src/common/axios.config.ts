@@ -12,7 +12,7 @@ console.log('🔗 Full Base URL with /api:', envBaseUrl + '/api');
 
 const api: AxiosInstance = axios.create({
   baseURL: envBaseUrl.replace(/\/+$/, '') + '/api/',
-  timeout: 30000, // เพิ่มเป็น 30 วินาที เพื่อรอการ Spin up ของ Render
+  timeout: 0, // 0 คือไม่มี timeout (รอจนกว่าจะตอบ)
   headers: {
     'Content-Type': 'application/json',
   },
