@@ -4,7 +4,7 @@ import router from '@/router';
 import { deleteCookie } from '@/shared/utils/cookie';
 import { useAuthStore } from '@/store/auth.store';
 
-const envBaseUrl = (import.meta.env.VITE_API_BASE_URL || 'https://kong-order-systems-backend.onrender.com').trim().replace(/\/+$/g, '');
+const envBaseUrl = (import.meta.env.VITE_API_BASE_URL || 'https://kong-order-system-backend.onrender.com').trim().replace(/\/+$/g, '');
 
 const api: AxiosInstance = axios.create({
   baseURL: envBaseUrl + '/api',
