@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://kong-order-systems-backend.onrender.com/api/$1"
+    }
+  ]
+}
