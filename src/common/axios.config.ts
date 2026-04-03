@@ -6,6 +6,10 @@ import { useAuthStore } from '@/store/auth.store';
 
 const envBaseUrl = (import.meta.env.VITE_API_BASE_URL || 'https://kong-order-systems-backend.onrender.com').trim().replace(/\/+$/g, '');
 
+// Debug: Log the actual URL being used
+console.log('🔗 API Base URL:', envBaseUrl);
+console.log('🔗 Full Base URL with /api:', envBaseUrl + '/api');
+
 const api: AxiosInstance = axios.create({
   baseURL: envBaseUrl + '/api',
   timeout: 15000,
@@ -60,9 +64,13 @@ api.interceptors.response.use(
         });
       }
     } else if (error.request) {
-      console.error('Network error — server not reachable.');
+      console.error('🚫 Network error — server not reachable.');
+      console.error('🔍 Request URL:', `${error.config?.baseURL || ''}${error.config?.url || ''}` || 'Unknown URL');
+      console.error('🔍 Full error:', error);
+      console.error('🔍 Error code:', error.code);
+      console.error('🔍 Error message:', error.message);
     } else {
-      console.error('Unexpected error:', error.message);
+      console.error('❌ Unexpected error:', error.message);
     }
     return Promise.reject(error);
   }
