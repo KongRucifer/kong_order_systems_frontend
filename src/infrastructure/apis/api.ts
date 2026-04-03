@@ -32,6 +32,8 @@ export class ApiClient {
     endpoint: string,
     data: U
   ): Promise<T> {
+    console.log('🔍 POST endpoint:', endpoint);
+    console.log('🔗 Full URL will be:', api.defaults.baseURL + endpoint);
     const response = await api.post<T>(endpoint, data);
     return response.data;
   }

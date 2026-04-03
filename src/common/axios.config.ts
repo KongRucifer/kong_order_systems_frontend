@@ -18,6 +18,9 @@ const api: AxiosInstance = axios.create({
   },
 });
 
+// Debug: Log the actual baseURL being used by axios
+console.log('🔗 Axios baseURL:', api.defaults.baseURL);
+
 const ACCESS_TOKEN_COOKIE_KEY = 'access_token';
 
 /**
