@@ -11,7 +11,7 @@ console.log('🔗 API Base URL:', envBaseUrl);
 console.log('🔗 Full Base URL with /api:', envBaseUrl + '/api');
 
 const api: AxiosInstance = axios.create({
-  baseURL: envBaseUrl + '/api',
+  baseURL: envBaseUrl.replace(/\/+$/, '') + '/api',
   timeout: 15000,
   headers: {
     'Content-Type': 'application/json',
