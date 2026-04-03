@@ -1,0 +1,14 @@
+{
+  "dashboard": "ແດຊບອດ",
+  "users": "ຈັດການຜູ້ໃຊ້",
+  "merchantManagement": "ການຈັດການຮ້ານຄ້າ",
+  "merchantList": "ລາຍການຮ້ານຄ້າ",
+  "merchantDetails": "ລາຍລະອຽດຮ້ານຄ້າ",
+  "addMerchant": "ເພີ່ມຮ້ານຄ້າ",
+  "customers": "ຈັດການລູກຄ້າ",
+  "exchangeRates": "ອັດຕາແລກປ່ຽນ",
+  "reports": "ລາຍງານ",
+  "merchantReports": "ລາຍງານຮ້ານຄ້າ",
+  "notifications": "ການແຈ້ງເຕືອນ",
+  "settings": "ຕັ້ງຄ່າ"
+}

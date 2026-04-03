@@ -1,0 +1,16 @@
+{
+  "dashboard": "แดชบอร์ด",
+  "customerManagement": "จัดการลูกค้า",
+  "customerList": "รายการลูกค้า",
+  "addCustomer": "เพิ่มลูกค้า",
+  "stockOrder": "สร้างออเดอร์",
+  "manageStock": "จัดการสต๊อก",
+  "createOrder": "สร้างออเดอร์",
+  "orders": "ออเดอร์ทั้งหมด",
+  "arrivals": "เคื่องมาถึง",
+  "teamMembers": "ผู้ใช้ทั่วไป",
+  "notifications": "การแจ้งเตือน",
+  "payment": "การชำระเงิน",
+  "exchangeRates": "อัตราแลกเปลี่ยน",
+  "reports": "รายงาน"
+}

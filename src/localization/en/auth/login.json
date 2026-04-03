@@ -1,0 +1,19 @@
+{
+  "title": "Login",
+  "subtitle": "Welcome back! Please enter your details.",
+  "email": "Email",
+  "username": "Username",
+  "password": "Password",
+  "loginButton": "Login",
+  "loggingIn": "Logging in",
+  "noAccount": "Don't have an account?",
+  "registerLink": "Register",
+  "emailRequired": "Please input your email!",
+  "emailInvalid": "Please input a valid email!",
+  "passwordRequired": "Please input your password!",
+  "success": "Login successful!",
+  "invalidCredentials": "Incorrect email or password. Please try again.",
+  "emailNotFound": "Email not found. Please check your email address.",
+  "passwordIncorrect": "Incorrect password. Please try again."
+}
+

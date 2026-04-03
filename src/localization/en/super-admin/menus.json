@@ -1,0 +1,14 @@
+{
+  "dashboard": "Dashboard",
+  "users": "Users",
+  "merchantManagement": "Store Management",
+  "merchantList": "Store List",
+  "merchantDetails": "Store Details",
+  "addMerchant": "Add Store",
+  "customers": "Customers",
+  "exchangeRates": "Exchange Rates",
+  "reports": "Reports",
+  "merchantReports": "Store Reports",
+  "notifications": "Notifications",
+  "settings": "Settings"
+}

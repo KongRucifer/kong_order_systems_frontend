@@ -1,0 +1,16 @@
+{
+  "dashboard": "Dashboard",
+  "customerManagement": "Customer Management",
+  "customerList": "Customer List",
+  "addCustomer": "Add Customer",
+  "stockOrder": "Create Order",
+  "manageStock": "Manage Stock",
+  "createOrder": "Create Order",
+  "orders": "Orders",
+  "arrivals": "Arrivals",
+  "notifications": "Notifications",
+  "teamMembers": "User General",
+  "payment": "Payment",
+  "exchangeRates": "Exchange Rates",
+  "reports": "Reports"
+}

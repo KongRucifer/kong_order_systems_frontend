@@ -1,0 +1,12 @@
+{
+  "title": "Dashboard",
+  "subtitle": "System overview — stores, users, and orders at a glance.",
+  "totalMerchants": "Total Stores",
+  "totalAdminUsers": "Admin Users",
+  "totalMerchantUsers": "Store Users",
+  "totalOrders": "Total Orders",
+  "topMerchants": "Top 5 Stores",
+  "recentLogins": "Recent User Logins",
+  "orders": "orders",
+  "noData": "No data available"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "แดชบอร์ด",
+  "subtitle": "ภาพรวมระบบ — ร้านค้า ผู้ใช้ และออเดอร์",
+  "totalMerchants": "ร้านค้าทั้งหมด",
+  "totalAdminUsers": "ผู้ใช้ Admin",
+  "totalMerchantUsers": "ผู้ใช้ร้านค้า",
+  "totalOrders": "ออเดอร์ทั้งหมด",
+  "topMerchants": "ร้านค้า Top 5",
+  "recentLogins": "การเข้าสู่ระบบล่าสุด",
+  "orders": "ออเดอร์",
+  "noData": "ไม่มีข้อมูล"
+}
